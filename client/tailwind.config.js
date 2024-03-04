@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: "Roboto Slab"
+        roboto: "Roboto Slab",
+        oswald: "Oswald",
+        merriweather: "Merriweather"
       }
     },
   },

@@ -9,23 +9,23 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
 
-    const navLinks = <>
-    
-            <li className='text-lg hover:text-[#c58940]'><NavLink to="/">Home</NavLink></li>
-            <li className='text-lg hover:text-[#c58940]'><NavLink to="/about">About</NavLink></li>
-            <li className='text-lg hover:text-[#c58940]'><NavLink to="/resources">Resources</NavLink></li>
-            <li className='text-lg hover:text-[#c58940]'><NavLink to="/blog">Blog</NavLink></li>
-            <li className='text-lg hover:text-[#c58940]'><NavLink to="/contact">Contact</NavLink></li>
+  const navLinks = <>
 
-        </>
+    <li className='text-lg hover:text-[#c58940]'><NavLink to="/">Home</NavLink></li>
+    <li className='text-lg hover:text-[#c58940]'><NavLink to="/about">About</NavLink></li>
+    <li className='text-lg hover:text-[#c58940]'><NavLink to="/resources">Resources</NavLink></li>
+    <li className='text-lg hover:text-[#c58940]'><NavLink to="/blog">Blog</NavLink></li>
+    <li className='text-lg hover:text-[#c58940]'><NavLink to="/contact">Contact</NavLink></li>
+
+  </>
 
 
   return (
-    <nav className="bg-black py-4 lg:py-7 font-roboto lg:sticky lg:top-0">
+    <nav className="bg-black z-20 transition-scroll duration-300 py-4 lg:py-7 font-roboto lg:sticky lg:top-0">
       <div className="container  mx-auto px-5 md:px-10">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <img className="h-7 lg:h-8" src={logo} alt="Logo" />
+            <img className="h-7 lg:h-8" src={logo} alt="Atm Mahmud" />
           </div>
           <div className="hidden lg:block">
             <ul className="flex space-x-8">
@@ -56,11 +56,11 @@ const Navbar = () => {
         {(ref) => (
           <div className="lg:hidden" ref={ref}>
             <ul className="mt-2 p-5 space-y-3 ">
-            <li className='text-lg hover:text-[#c58940] border-y p-2'><NavLink to="/">Home</NavLink></li>
-            <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/about">About</NavLink></li>
-            <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/resources">Resources</NavLink></li>
-            <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/blog">Blog</NavLink></li>
-            <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/contact">Contact</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-y p-2'><NavLink to="/">Home</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/about">About</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/resources">Resources</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/blog">Blog</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/contact">Contact</NavLink></li>
             </ul>
           </div>
         )}
