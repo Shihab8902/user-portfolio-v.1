@@ -13,7 +13,6 @@ const Navbar = () => {
 
     <li className='text-lg hover:text-[#c58940]'><NavLink to="/">Home</NavLink></li>
     <li className='text-lg hover:text-[#c58940]'><NavLink to="/about">About</NavLink></li>
-    <li className='text-lg hover:text-[#c58940]'><NavLink to="/resources">Resources</NavLink></li>
     <li className='text-lg hover:text-[#c58940]'><NavLink to="/blog">Blog</NavLink></li>
     <li className='text-lg hover:text-[#c58940]'><NavLink to="/contact">Contact</NavLink></li>
 
@@ -58,7 +57,6 @@ const Navbar = () => {
             <ul className="mt-2 p-5 space-y-3 ">
               <li className='text-lg hover:text-[#c58940] border-y p-2'><NavLink to="/">Home</NavLink></li>
               <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/about">About</NavLink></li>
-              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/resources">Resources</NavLink></li>
               <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/blog">Blog</NavLink></li>
               <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/contact">Contact</NavLink></li>
             </ul>

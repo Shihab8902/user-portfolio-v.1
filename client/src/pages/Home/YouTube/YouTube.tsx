@@ -25,7 +25,7 @@ const YouTube = () => {
                 <p className='my-6 leading-8 text-[#FFFFFFC9] font-[300]  font-merriweather'>Alhamdulillah, another milestone has been reached! I'm humbled and grateful to receive the Silver Play Button from YouTube. This achievement wouldn't be possible without the incredible support of each and every one of you who subscribe to my channel, "ATM Sir." Thank you for being a part of this journey. Your dedication inspires me to continue creating content that not only educates and motivates you but also empowers you to achieve your goals. Insha'Allah, this Silver Play Button will be a catalyst for even greater achievements to come. Alhamdulillah, another milestone has been reached! I'm humbled and grateful to receive the Silver Play Button from YouTube. This achievement wouldn't be possible without the incredible support of each and every one of you who subscribe to my channel, "ATM Sir." Thank you for being a part of this journey. Your dedication inspires me to continue creating content that not only educates and motivates you but also empowers you to achieve your goals. Insha'Allah, this Silver Play Button will be a catalyst for even greater achievements to come.</p>
 
                 {/* Action button */}
-                <div className='mt-10'>
+                <div className='mt-5 inline-block'>
                     <Link to="https://youtube.com/atmsir" target='_blank'>  <button className='flex items-center gap-3 uppercase text-[#C58940]  font-semibold hover:text-white hover:bg-[#C58940] px-7 py-3 border border-[#C58940] font-merriweather'>Subscribe <FaYoutube className='text-2xl' /></button></Link>
                 </div>
             </div>
