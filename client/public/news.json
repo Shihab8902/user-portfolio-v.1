@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/barta%20bazar.png",
         "type": "News",
         "title": "ATM Mahmud has changed the fate of millions of youth",
         "publishedAt": "2023-10-14",
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/the%20bangla%20today.png",
         "type": "News",
         "title": "Unlocking the Potential of Rural Youth: The Impact of ATM Mahmud’s English Education Initiatives",
         "publishedAt": "2023-10-17",
@@ -17,7 +17,7 @@
     },
     {
         "id": "3",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/rtv%20online.png",
         "type": "News",
         "title": "বেকারত্বকে জাদুঘরে রাখতে চাই",
         "publishedAt": "2023-10-31",
@@ -25,7 +25,7 @@
     },
     {
         "id": "4",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/mjomin.png",
         "type": "News",
         "title": "শিক্ষা শুধু বই থেকেই নয়, জীবন থেকেও আসে - এটিএম মাহমুদ",
         "publishedAt": "2023-10-29",
@@ -33,7 +33,7 @@
     },
     {
         "id": "5",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/barta%20bazar.png",
         "type": "News",
         "title": "“মানসিক চাপ, বড় কিছু অর্জনের পথে একটি বড় বাধা” : এটিএম মাহমুদ",
         "publishedAt": "2023-10-23",
@@ -41,7 +41,7 @@
     },
     {
         "id": "6",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/daily%20prottoy.png",
         "type": "News",
         "title": "লক্ষাধিক তরুন-তরুনীর ভাগ্য বদলে দিয়েছেন এটিএম মাহমুদ",
         "publishedAt": "2023-10-15",
@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/jamuna%20protidin.png",
         "type": "News",
         "title": "Sir ATM Mahmud’s attempt to change the lives of thousands of youth",
         "publishedAt": "2023-10-15",
@@ -57,7 +57,7 @@
     },
     {
         "id": "8",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/jamuna%20protidin02.png",
         "type": "News",
         "title": "লক্ষাধিক তরুণ-তরুণীর ভাগ্য বদলে দিয়েছেন এটিএম মাহমুদ",
         "publishedAt": "2023-10-15",
@@ -65,7 +65,7 @@
     },
     {
         "id": "9",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/wiki%20alpha.png",
         "type": "News",
         "title": "WikiAlpha: ATM Sir",
         "publishedAt": "2024-01-30",
@@ -73,7 +73,7 @@
     },
     {
         "id": "10",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/daily%20jonokontho.png",
         "type": "News",
         "title": "তরুণদের স্বপ্ন পূরণে কাজ করে যাচ্ছে এটিএম",
         "publishedAt": "2020-09-26",
@@ -81,7 +81,7 @@
     },
     {
         "id": "11",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Shihab8902/user-portfolio-v.1/main/client/src/assets/images/news/naya%20diganto.png",
         "type": "News",
         "title": "সময় মূল্যায়নের কৌশল: এ টি এম মাহমুদ",
         "publishedAt": "2022-03-19",
