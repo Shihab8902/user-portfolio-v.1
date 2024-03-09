@@ -55,10 +55,10 @@ const Navbar = () => {
         {(ref) => (
           <div className="lg:hidden" ref={ref}>
             <ul className="mt-2 p-5 space-y-3 ">
-              <li className='text-lg hover:text-[#c58940] border-y p-2'><NavLink to="/">Home</NavLink></li>
-              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/about">About</NavLink></li>
-              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/blog">Blog</NavLink></li>
-              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink to="/contact">Contact</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-y p-2'><NavLink onClick={() => setIsOpen(!isOpen)} to="/">Home</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink onClick={() => setIsOpen(!isOpen)} to="/about">About</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink onClick={() => setIsOpen(!isOpen)} to="/blog">Blog</NavLink></li>
+              <li className='text-lg hover:text-[#c58940] border-b p-2'><NavLink onClick={() => setIsOpen(!isOpen)} to="/contact">Contact</NavLink></li>
             </ul>
           </div>
         )}
