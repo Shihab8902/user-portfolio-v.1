@@ -1,0 +1,14 @@
+.blog-container .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgb(255, 246, 246);
+}
+
+.blog-container .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #C58940;
+}

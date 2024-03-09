@@ -13,16 +13,3 @@
   color: white;
   overflow-x: hidden;
 }
-
-
-/* Swiper js configuration */
-/* Customize pagination dot color */
-.swiper-pagination .swiper-pagination-bullet {
-  background-color: rgb(255, 246, 246);
-
-}
-
-
-.swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #C58940;
-}

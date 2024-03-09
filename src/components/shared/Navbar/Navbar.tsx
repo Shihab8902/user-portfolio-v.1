@@ -3,7 +3,7 @@ import './navbar.css';
 import { Transition } from '@headlessui/react';
 import { IoMenu } from "react-icons/io5";
 import logo from '../../../assets/images/Atm Mahmud logo.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="container  mx-auto px-5 md:px-10">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <img className="h-7 lg:h-8" src={logo} alt="Atm Mahmud" />
+            <Link to="/"><img className="h-7 lg:h-8" src={logo} alt="Atm Mahmud" /></Link>
           </div>
           <div className="hidden lg:block">
             <ul className="flex space-x-8">

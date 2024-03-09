@@ -6,11 +6,11 @@ import { useEffect, useState } from 'react';
 import NewsCard from '../../../components/News card/NewsCard';
 import { HiMiniArrowUpRight } from 'react-icons/hi2';
 import { Link } from 'react-router-dom';
+import '../home.css';
 
 
 
 const News = () => {
-
     //Get news data
     const [news, setNews] = useState([]);
 
