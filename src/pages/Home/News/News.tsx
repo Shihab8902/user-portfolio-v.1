@@ -61,7 +61,10 @@ const News = () => {
         {/* News slide for mobile devices */}
         <div className='lg:hidden '>
             {
-                news?.slice(0, 4).map(n => <NewsCard key={n.id} news={n} />)
+                news?.slice(0, 4).map(n => {
+                    const { id } = n;
+                    return <NewsCard key={id} news={n} />
+                })
             }
 
             {/* Action button */}

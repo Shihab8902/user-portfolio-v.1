@@ -14,7 +14,7 @@ const Contact = () => {
 
 
     //Handle form submit
-    const handleFormSubmit = (e) => {
+    const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         setConfirmationMessage("Thanks for your message! We'll be in touch soon.")
     }

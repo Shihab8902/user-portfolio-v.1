@@ -22,7 +22,7 @@ const Blog = () => {
 
     const pagination = {
         clickable: true,
-        renderBullet: function (index, className) {
+        renderBullet: function (index: number, className: string) {
             return '<span class="' + className + '">' + (index + 1) + '</span>';
         },
     };
@@ -52,12 +52,18 @@ const Blog = () => {
                 >
                     <SwiperSlide>
                         <div className="grid lg:grid-cols-3 gap-6 pb-20">
-                            {blogs?.slice(0, 6).map(blog => <NewsCard key={blog.id} news={blog} />)}
+                            {blogs?.slice(0, 6).map(blog => {
+                                const { id } = blog;
+                                return <NewsCard key={id} news={blog} />
+                            })}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="grid lg:grid-cols-3 gap-6 pb-20">
-                            {blogs?.slice(7, blogs.length).map(blog => <NewsCard key={blog.id} news={blog} />)}
+                            {blogs?.slice(7, blogs.length).map(blog => {
+                                const { id } = blog;
+                                return <NewsCard key={id} news={blog} />
+                            })}
                         </div>
                     </SwiperSlide>
 
@@ -68,7 +74,10 @@ const Blog = () => {
             {/* For mobile view */}
             <div className="lg:hidden">
                 <div className="grid md:grid-cols-2 gap-6 pb-20">
-                    {blogs?.slice(0, itemCount).map(blog => <NewsCard key={blog.id} news={blog} />)}
+                    {blogs?.slice(0, itemCount).map(blog => {
+                        const { id } = blog;
+                        return <NewsCard key={id} news={blog} />
+                    })}
                 </div>
 
                 {/* Action button */}
