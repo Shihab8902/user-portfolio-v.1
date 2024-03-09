@@ -3,8 +3,11 @@ import { HiMiniArrowUpRight } from "react-icons/hi2";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+
+    const navigate = useNavigate();
 
     //initialize AOS
     useEffect(() => {
@@ -34,7 +37,7 @@ const About = () => {
 
                     {/* Action button */}
                     <div className='mt-10'>
-                        <button className='flex items-center gap-1  text-[#C58940]  font-semibold hover:text-white hover:bg-[#C58940] px-5 py-3 border border-[#C58940] font-merriweather'>Book a Meeting <HiMiniArrowUpRight /></button>
+                        <button onClick={()=> navigate("/contact")} className='flex items-center gap-1  text-[#C58940]  font-semibold hover:text-white hover:bg-[#C58940] px-5 py-3 border border-[#C58940] font-merriweather'>Book a Meeting <HiMiniArrowUpRight /></button>
                     </div>
 
                 </div>
