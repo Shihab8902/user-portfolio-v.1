@@ -1,4 +1,4 @@
-import banner from '../../../assets/images/YouTube ATM Sir 100K Subscribers.png';
+import banner from '../../../assets/images/YouTube ATM Sir 100K Subscribers.jpg';
 import image from '../../../assets/images/ATM Sir With Silver Play Button.jpg';
 import { FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';

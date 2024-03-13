@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import image from '../../assets/images/ATM Sir Img.png';
+import image from '../../assets/images/ATM Sir img text.png';
 
 const About = () => {
 
@@ -10,12 +10,17 @@ const About = () => {
     }, [])
 
 
-    return <div className='container mx-auto px-5 my-20 font-roboto'>
+    return <div className='container mx-auto px-5 mt-5 mb-20 font-roboto'>
 
         {/* Hero image */}
         <div >
-            <img className='lg:w-[500px] mx-auto' src={image} alt="ATM Mahmud (ATM Sir)" />
-            <h3 className='text-center  mt-20 font-medium text-3xl font-merriweather text-[#C58940]'>ATM Mahmud (ATM Sir)</h3>
+            <img className=' mx-auto' src={image} alt="ATM Mahmud (ATM Sir)" />
+            <h3 className='text-center  mt-20 font-medium text-2xl md:text-3xl font-merriweather text-[#C58940]'>ATM Mahmud (ATM Sir)</h3>
+        </div>
+
+        {/* Quote */}
+        <div className='bg-[#202020] text-center text-lg md:text-2xl lg:text-4xl mt-10 py-12 px-8 rounded'>
+            <h3 className=" leading-relaxed font-[300] text-[#FFFFFFC9]">"Only those who start are successful in the world. And those who do not start or start late fail." - ATM Mahmud (ATM Sir)</h3>
         </div>
 
 

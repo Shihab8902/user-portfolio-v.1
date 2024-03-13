@@ -2,10 +2,13 @@ import { Link } from 'react-router-dom';
 import signature from '../../../assets/images/Atm Mahmud logo.png';
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 import { FaSquareTwitter } from 'react-icons/fa6';
+import SocialLinks from '../../Social links/SocialLinks';
 
 const Footer = () => {
 
     return <footer >
+
+        <SocialLinks />
 
         <div className='bg-black'>
             <div className='lg:grid grid-cols-3 gap-10 lg:items-end font-roboto container mx-auto px-5 py-14'>
